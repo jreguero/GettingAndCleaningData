@@ -29,4 +29,4 @@ for (i in 2:(length(features.string2)-1))
 names(finalDataset) <- features.string2
 
 #Save dataset
-write.table(finalDataset,"./data/UCI HAR Dataset/tidy_data.txt",row.names=FALSE)
+write.table(finalDataset,"./tidy_data.txt",row.names=FALSE)

@@ -13,7 +13,7 @@ For that run_analysis.R sequencially calls five scripts describes in the followi
 
 To read the tidy dataset, execute on your current path the following command:
 ```{r, eval=FALSE}
- TidyData <- read.table("./data/UCI HAR Dataset/tidy_data.txt", header=TRUE)
+ TidyData <- read.table("./tidy_data.txt", header=TRUE)
 ```
 
 ### Downloading the data
